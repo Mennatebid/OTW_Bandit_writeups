@@ -23,7 +23,11 @@ SSH into the server:
 
 ssh bandit0@bandit.labs.overthewire.org -p 2220 
 
-then you will be prombt to enter the password given already 
+then you will be prombt to enter the password given already
+
+use the ls command to see the readme file
+
+use cat command to past the file content in terminal  
 
 4. Explanation / Reasoning
 
