@@ -19,7 +19,7 @@ ssh bandit8@bandit.labs.overthewire.org -p 2220
 enter the password from the previous game
 
 use the command :
-sort -cu data.txt
+sort data.txt | uniq -u
 
 Explanation and reasoning:
-we need to find the line mentioned only once so we use -c along with u
+we first organize the file using sort then pipe that output to uniq with -u flag to get the line that appears once
