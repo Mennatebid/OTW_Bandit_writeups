@@ -20,7 +20,7 @@ enter the password from the previous game
 
 use commands:
 login to bandit25 :
-ls -al >> you will find bandit26.sshkey >> pwd and copy it
+ls -al >> you will find your key >> pwd and copy it
 exit
 in your local host command : 
 scp -P 2220 bandit25@bandit.labs.overthewire.org:/home/bandit25/your key .
